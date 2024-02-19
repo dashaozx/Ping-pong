@@ -2,6 +2,7 @@ from pygame import*
 from random import randint
 from time import time as time_count
 window = display.set_mode()
+window.fill((0, 255, 255))
 clock = time.Clock()
 game = True
 while game:
